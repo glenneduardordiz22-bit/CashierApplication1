@@ -13,7 +13,7 @@ namespace CashierApplication1
         protected int item_quantity;
         protected double total_price;
 
-        // Constructor
+      
         public Item(string name, double price, int quantity)
         {
             item_name = name;
@@ -21,7 +21,6 @@ namespace CashierApplication1
             item_quantity = quantity;
         }
 
-        // Methods
         public double getTotalPrice()
         {
             total_price = item_price * item_quantity;
@@ -30,7 +29,7 @@ namespace CashierApplication1
 
         public void setPayment(double amount)
         {
-            // Base implementation (will be overridden)
+           
         }
     }
 }
